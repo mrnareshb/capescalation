@@ -1,0 +1,31 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.manager_scope",
+      "description": "manager_scope"
+    },
+    {
+      "name": "$XSAPPNAME.purchaser_scope",
+      "description": "purchaser_scope"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "manager",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.manager_scope"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "purchaser",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.purchaser_scope"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
